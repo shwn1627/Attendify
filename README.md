@@ -30,3 +30,43 @@ This system enables role-based attendance management with real-time analytics an
 ### Database
 ```bash
 mysql -u root -p student_attendance_db < attendance_database_schema.sql
+
+
+Backend(SpringBoot)
+cd backend
+mvn spring-boot:run
+# Runs at: http://localhost:8080
+
+Frontend(React + Typescript)
+cd frontend
+npm install
+npm start
+# Runs at: http://localhost:3000
+
+📊 Roles
+
+* Admin → Manage students, faculty, and courses.
+
+* Faculty → Mark attendance, view statistics.
+
+* Student → View personal attendance record.
+
+🖼️ UI/UX Highlights
+
+* Responsive layout with animations
+
+* Interactive dashboard with charts
+
+* Data tables with search, filter, pagination
+
+* Toast notifications for feedback
+
+🔮 Future Enhancements
+
+* Email/SMS notifications
+
+* Biometric/RFID integration
+
+* AI-based attendance prediction
+
+
